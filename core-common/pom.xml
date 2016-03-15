@@ -175,6 +175,12 @@
             <artifactId>org.osgi.core</artifactId>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.19</version>
+            <optional>true</optional>
+        </dependency>
 
         <dependency>
             <groupId>org.glassfish.jersey.bundles.repackaged</groupId>
